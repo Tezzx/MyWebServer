@@ -1,5 +1,8 @@
-#include<cstdio>
+#include"server.h"
+
 int main(){
-    printf("hello world");
-    printf("yes");
+
+    server m_server(8888);
+    m_server.eventloop();
+    
 }
